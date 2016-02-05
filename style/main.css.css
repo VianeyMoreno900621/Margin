@@ -1,9 +1,6 @@
 div {
-	display: block;
+	display: inline-block;
 	margin:auto;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 50px;
 	margin-top: 20px;
 	height: 100px;
 	width: 100px;
@@ -27,9 +24,28 @@ p
 	
 	}
 
-.grande {
+.primero {
+	
 	margin-bottom: 10px;
-	display: block;
+	margin-left: 20px;
+	display: inline-block; 
+	height: 245px;
+	width: 220px;
+	border: 2px solid red;
+}
+
+.segundo {
+	margin-bottom: 10px;
+	display: inline-block;
+	height: 245px;
+	width: 220px;
+	border: 2px solid red;
+
+}
+
+.tercero {
+	margin-bottom: 10px;
+	display: inline-block;
 	height: 245px;
 	width: 220px;
 	border: 2px solid red;
