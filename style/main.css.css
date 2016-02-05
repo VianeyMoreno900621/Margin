@@ -1,10 +1,8 @@
 div {
-	display: inline-block;
-	margin:auto;
-	margin-top: 20px;
 	height: 100px;
 	width: 100px;
 	border: 100%;
+	float: right;
 }
 
 h3 {
@@ -26,27 +24,31 @@ p
 
 .primero {
 	
-	margin-bottom: 10px;
-	margin-left: 20px;
+	
 	display: inline-block; 
 	height: 245px;
 	width: 220px;
 	border: 2px solid red;
+	float: left;
 }
 
 .segundo {
 	margin-bottom: 10px;
+	margin-top: 9px;
 	display: inline-block;
 	height: 245px;
 	width: 220px;
 	border: 2px solid red;
+	float: left;
 
 }
 
 .tercero {
 	margin-bottom: 10px;
+	margin-top: 9px;
 	display: inline-block;
 	height: 245px;
 	width: 220px;
 	border: 2px solid red;
+	float: left;
 }
